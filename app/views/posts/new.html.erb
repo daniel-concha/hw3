@@ -1,7 +1,9 @@
-<%= form_with :model => @place do |form|%>
+<%= form_with :model => @post do |form|%>
     <p>
         <%= form.label "title", "Post Title"%>
         <%= form.text_field "title"%>
+    </p>
+    <p>
         <%= form.label "description", "Post Description"%>
         <%= form.text_field "description"%>
     </p>
