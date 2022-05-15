@@ -7,9 +7,11 @@
         <%= form.label "description", "Post Description"%>
         <%= form.text_field "description"%>
     </p>
-   
-    <%= form.hidden_field "posted_on"%>
-    <%= form.submit%>
+    <p>
+        <%= form.label "posted_on", "Post Date"%>
+        <%= form.date_field "posted_on"%>
+    </p>
+    
     
     <%= form.hidden_field "place_id" %>
     <%= form.submit %>
